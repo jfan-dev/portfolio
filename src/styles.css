@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    /* Css Reset */
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;  
+
+    /* Color palette */
+
+    --forest-black: #001E11;
+    --charcoal-green: #002D1A;
+    --deep-forest-green: #013A20; /*(Main Color)*/
+    --hunter-green: #00532D;
+    --dark-green: #006738;
+}
