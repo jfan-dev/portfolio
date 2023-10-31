@@ -1,7 +1,19 @@
+:host {
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+
 .nav-button {
     text-decoration: none;
+    padding: 12px 24px;
 }
 
 .nav-button-text {
-    color:aliceblue;
-}
+    color:white;
+    text-transform: uppercase;
+    font-weight: 300;
+    white-space: nowrap;
+}  
+

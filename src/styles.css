@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Poppins:wght@300;400;600;700;900&display=swap');
 
 * {
     /* Css Reset */
@@ -15,4 +16,8 @@
     --deep-forest-green: #013A20; /*(Main Color)*/
     --hunter-green: #00532D;
     --dark-green: #006738;
+
+
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Poppins', sans-serif;
 }

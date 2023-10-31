@@ -1,4 +1,11 @@
 :host {
-    display: flex;
-    margin-left: auto;
+display: flex;  
+margin-left: auto;
+}
+
+
+:last-child {
+        font-size: larger;
+        border-radius: 8px;
+        background: linear-gradient(90deg, hsla(0, 0%, 5%, 1) 0%, hsla(126, 82%, 33%, 1) 100%);
 }
