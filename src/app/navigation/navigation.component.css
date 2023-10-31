@@ -1,8 +1,31 @@
 :host {
     height: 8rem;
+    width: 100%;
     background-color: var(--forest-black);
     box-shadow: 0px 2px 5px var(--dark-green);    
     
     display: flex;
     align-items: center;
+    margin: auto;
 }
+
+/* 
+
+:nth-child(2),
+:nth-child(3),
+:nth-child(4),
+:nth-child(5) {
+    margin-left:auto;
+}
+
+:nth-child(1) {
+    margin-right:auto;
+}
+:nth-child(5) {
+    margin-right:5rem;
+    padding: 1rem;
+    background-color: aqua;
+} */
+
+
+

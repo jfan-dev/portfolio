@@ -7,6 +7,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { NavElementComponent } from './navigation/nav-element/nav-element.component';
 import { NavLogoComponent } from './navigation/nav-logo/nav-logo.component';
 import { HomeComponent } from './home/home.component';
+import { NavMenuComponent } from './navigation/nav-menu/nav-menu.component';
+import { NavElementContainerComponent } from './navigation/nav-element-container/nav-element-container.component';
+import { NavContainerComponent } from './navigation/nav-container/nav-container.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { HomeComponent } from './home/home.component';
     NavigationComponent,
     NavElementComponent,
     NavLogoComponent,
-    HomeComponent
+    HomeComponent,
+    NavMenuComponent,
+    NavElementContainerComponent,
+    NavContainerComponent
   ],
   imports: [
     BrowserModule,
