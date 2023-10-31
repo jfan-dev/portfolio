@@ -1,0 +1,52 @@
+
+
+.envelope {
+    position: relative;
+    top: 0;
+    margin: auto;
+    width: 80%;
+}
+
+.dev {
+    font-size: calc(0.5rem + 14vw);
+    transform: rotate(-30deg);
+    font-family: 'Cinzel', serif;
+    color: rgba(240, 248, 255, 0.050);
+    letter-spacing: 1rem;
+    margin-top: 10rem;
+}
+
+.text-container {
+    position: absolute;
+    top:-25rem;
+    
+}
+
+h1 {
+    font-size: 128px;
+    font-family: 'Cinzel', serif;
+    line-height: 7rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.wid {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.btn {
+    background: linear-gradient(90deg, hsla(0, 0%, 5%, 1) 0%, hsla(126, 82%, 33%, 1) 100%);
+    padding: 1.5rem;
+    width: 25rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 12rem;
+    
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+}
