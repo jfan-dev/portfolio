@@ -22,3 +22,12 @@
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
 }
+
+.app-container {
+    width: 60%;
+    margin: auto;
+}
+
+body {
+    background: radial-gradient(circle, hsla(153, 97%, 12%, 1) 0%, hsla(154, 100%, 6%, 1) 100%);
+}
