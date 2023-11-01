@@ -2,5 +2,8 @@
     display: flex;
     width: 3.5rem;
     height: 3.5rem;
-    margin: 1rem;
+}
+
+:host {
+    margin-right: auto;
 }
