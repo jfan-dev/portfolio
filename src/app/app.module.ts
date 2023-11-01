@@ -11,6 +11,7 @@ import { NavMenuComponent } from './navigation/nav-menu/nav-menu.component';
 import { NavElementContainerComponent } from './navigation/nav-element-container/nav-element-container.component';
 import { NavContainerComponent } from './navigation/nav-container/nav-container.component';
 import { HomeHeroComponent } from './home/home-hero/home-hero.component';
+import { AboutMeComponent } from './home/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeHeroComponent } from './home/home-hero/home-hero.component';
     NavMenuComponent,
     NavElementContainerComponent,
     NavContainerComponent,
-    HomeHeroComponent
+    HomeHeroComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
