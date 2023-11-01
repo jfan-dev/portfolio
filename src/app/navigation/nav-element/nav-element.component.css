@@ -1,8 +1,6 @@
 :host {
     display: flex;
-    align-items: center;
 }
-
 
 .nav-button {
     text-decoration: none;
