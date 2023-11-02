@@ -1,8 +1,0 @@
-:host {
-    background: radial-gradient(circle, hsla(153, 97%, 12%, 1) 0%, hsla(154, 100%, 6%, 1) 100%);
-    position: absolute;
-    top: 0;
-    z-index: 1; 
-    width: 100%;
-    padding-top: 8rem;   
-}

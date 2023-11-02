@@ -1,0 +1,48 @@
+:host {
+    display: flex;
+}
+
+.about-img {
+    
+    width: 20rem;
+    margin-right: auto;
+    border:  2px solid red;
+}
+
+.text-container {
+    width: 60%;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.text-description {
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+}
+
+.btn-container {
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-area {
+    display: flex;
+    padding: 36px 8rem;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.btn-text {
+    font-size: 36px;
+    text-transform: uppercase;
+        
+}
+
+.about-img::after {
+}
