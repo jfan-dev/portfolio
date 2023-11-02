@@ -55,7 +55,6 @@ h2 {
 }
 
 .btn-container {
-    /* align-items: center; */
     display: flex;
     justify-content: stretch;
 }
@@ -65,7 +64,6 @@ h2 {
     padding: 24px 5rem;
     border-radius: 15px;
     white-space: nowrap;
-
 }
 
 .btn-container a:first-child {
@@ -80,8 +78,6 @@ h2 {
 
 .btn-text {
     font-size: 24px;
-    text-transform: uppercase;
-    
-        
+    text-transform: uppercase; 
 }
 
