@@ -7,9 +7,9 @@
 .dev {
     position: absolute;
     z-index: -1;
-    /* font-size: calc(0.5rem + 12vw); */
+    
     font-size: 196px;
-    transform: rotate(-32deg);
+    transform: rotate(-30deg);
     font-family: 'Cinzel', serif;
     color: rgba(240, 248, 255, 0.050);
     letter-spacing: 1rem;
@@ -30,7 +30,7 @@ h3 {
 }
 
 .btn {
-    background: linear-gradient(90deg, hsla(0, 0%, 5%, 1) 0%, hsla(126, 82%, 33%, 1) 100%);
+    background: var(--btn-gradiente);
     padding: 1.5rem;
     width: 25rem;
     border-radius: 15px;
