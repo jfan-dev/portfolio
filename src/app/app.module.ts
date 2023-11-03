@@ -12,6 +12,7 @@ import { NavElementContainerComponent } from './navigation/nav-element-container
 import { NavContainerComponent } from './navigation/nav-container/nav-container.component';
 import { HomeHeroComponent } from './home/home-hero/home-hero.component';
 import { AboutMeComponent } from './home/about-me/about-me.component';
+import { PortfolioComponent } from './home/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutMeComponent } from './home/about-me/about-me.component';
     NavElementContainerComponent,
     NavContainerComponent,
     HomeHeroComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
