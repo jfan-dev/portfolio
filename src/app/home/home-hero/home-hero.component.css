@@ -2,6 +2,7 @@
     position: relative;
     top: 0;
     margin-top: 12rem;
+    user-select: none;
 }
 
 .dev {
@@ -15,6 +16,7 @@
     letter-spacing: 1rem;
     margin-top: 5rem;
     margin-left: -12rem;
+    pointer-events: none;
 }
 
 h1 {
@@ -35,10 +37,14 @@ h3 {
     width: 25rem;
     border-radius: 15px;
     margin-top: 3rem;
-    margin-bottom: 12rem;
-    
+    margin-bottom: 15rem;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     white-space: nowrap;
+}
+
+.link-deco-none {
+    text-decoration: none;
+
 }
