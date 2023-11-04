@@ -9,4 +9,14 @@ export class PortfolioCardComponent {
   
   @Input() isReversed: boolean = true;
 
+  @Input() description: string = "";
+  
+  @Input() projectNumber: string = "";
+  
+  @Input() projectName: string = "";
+  
+  @Input() projectImage: string = "";
+
+  @Input() projectImageAltText: string = "";
+
 }

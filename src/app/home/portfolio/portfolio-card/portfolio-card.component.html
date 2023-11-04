@@ -1,27 +1,24 @@
 <div [ngClass]="{'card-container': !isReversed, 'card-container-reversed': isReversed}">
-
     <div class="frame">
         <div class="img-container">
             <img
-            src="/assets/dog-wearing-business-suit_3.jpg" 
-            alt=""
+            src= {{projectImage}} 
+            alt= {{projectImageAltText}}
             >
         </div>
     </div>
 
     <div class="text-container">
         
-        <h2>PROJECT 1</h2>
-        <h3>Mobile Web Site</h3>
+        <h2>{{projectNumber}}</h2>
+        <h3>{{projectName}}</h3>
         
-        <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, vel quisquam minima officiis assumenda, consequatur sed enim mollitia corporis natus consectetur! Esse architecto suscipit necessitatibus nihil aliquid placeat eius unde!
-            inventore ut cupiditate libero, blanditiis, error iste ducimus doloremque 
-        </p>
+        <p class="text-description">{{description}}</p>
         
-            <a class="btn-area" href="">
-                <img src="https://api.iconify.design/heroicons/arrow-long-right-solid.svg?color=white&width=32" alt="">
-                Read more
-            </a>
+        <a class="btn-area" href="">
+            <img src="https://api.iconify.design/heroicons/arrow-long-right-solid.svg?color=white&width=32" alt="">
+            Read more
+        </a>
            
     </div> 
 </div>
