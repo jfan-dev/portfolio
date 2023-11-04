@@ -14,6 +14,7 @@ import { HomeHeroComponent } from './home/home-hero/home-hero.component';
 import { AboutMeComponent } from './home/about-me/about-me.component';
 import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { PortfolioCardComponent } from './home/portfolio/portfolio-card/portfolio-card.component';
+import { ExpertiseComponent } from './home/expertise/expertise.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PortfolioCardComponent } from './home/portfolio/portfolio-card/portfoli
     HomeHeroComponent,
     AboutMeComponent,
     PortfolioComponent,
-    PortfolioCardComponent
+    PortfolioCardComponent,
+    ExpertiseComponent
   ],
   imports: [
     BrowserModule,
