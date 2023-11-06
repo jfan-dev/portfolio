@@ -15,6 +15,7 @@ import { AboutMeComponent } from './home/about-me/about-me.component';
 import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { PortfolioCardComponent } from './home/portfolio/portfolio-card/portfolio-card.component';
 import { ExpertiseComponent } from './home/expertise/expertise.component';
+import { SkillTagComponent } from './home/expertise/skill-tag/skill-tag.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ExpertiseComponent } from './home/expertise/expertise.component';
     AboutMeComponent,
     PortfolioComponent,
     PortfolioCardComponent,
-    ExpertiseComponent
+    ExpertiseComponent,
+    SkillTagComponent
   ],
   imports: [
     BrowserModule,
