@@ -1,0 +1,13 @@
+
+p {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.expertise-box {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
