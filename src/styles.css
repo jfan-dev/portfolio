@@ -25,11 +25,20 @@
     color: aliceblue;
 }
 
+body {
+    background: radial-gradient(circle, hsla(153, 97%, 12%, 1) 0%, hsla(154, 100%, 6%, 1) 100%);
+}
+
 .app-container {
     width: 85%;
     margin: auto;
 }
 
-body {
-    background: radial-gradient(circle, hsla(153, 97%, 12%, 1) 0%, hsla(154, 100%, 6%, 1) 100%);
+.margin-bottom {
+    margin-bottom: 12rem;
 }
+
+.link-deco-none {
+    text-decoration: none;
+}
+
