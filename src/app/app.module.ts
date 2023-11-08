@@ -17,6 +17,11 @@ import { PortfolioCardComponent } from './home/portfolio/portfolio-card/portfoli
 import { ExpertiseComponent } from './home/expertise/expertise.component';
 import { SkillTagComponent } from './home/expertise/skill-tag/skill-tag.component';
 import { FooterComponent } from './footer/footer.component';
+import { FooterContentComponent } from './footer/footer-content/footer-content.component';
+import { FooterFormComponent } from './footer/footer-content/footer-form/footer-form.component';
+import { FooterLinksComponent } from './footer/footer-content/footer-links/footer-links.component';
+import { FooterSocialComponent } from './footer/footer-content/footer-social/footer-social.component';
+import { FooterLogoComponent } from './footer/footer-content/footer-logo/footer-logo.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +39,12 @@ import { FooterComponent } from './footer/footer.component';
     PortfolioCardComponent,
     ExpertiseComponent,
     SkillTagComponent,
-    FooterComponent
+    FooterComponent,
+    FooterContentComponent,
+    FooterFormComponent,
+    FooterLinksComponent,
+    FooterSocialComponent,
+    FooterLogoComponent
   ],
   imports: [
     BrowserModule,
