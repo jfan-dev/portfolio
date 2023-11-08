@@ -22,6 +22,7 @@ import { FooterFormComponent } from './footer/footer-content/footer-form/footer-
 import { FooterLinksComponent } from './footer/footer-content/footer-links/footer-links.component';
 import { FooterSocialComponent } from './footer/footer-content/footer-social/footer-social.component';
 import { FooterLogoComponent } from './footer/footer-content/footer-logo/footer-logo.component';
+import { LinkCardComponent } from './footer/footer-content/footer-links/link-card/link-card.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { FooterLogoComponent } from './footer/footer-content/footer-logo/footer-
     FooterFormComponent,
     FooterLinksComponent,
     FooterSocialComponent,
-    FooterLogoComponent
+    FooterLogoComponent,
+    LinkCardComponent
   ],
   imports: [
     BrowserModule,
