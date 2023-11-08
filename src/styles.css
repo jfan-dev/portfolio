@@ -19,6 +19,10 @@
 
     --btn-gradiente: linear-gradient(90deg, hsla(0, 0%, 5%, 1) 0%, hsla(126, 82%, 33%, 1) 100%);
 
+    --footer-gradiente-315: linear-gradient(315deg, hsla(153, 100%, 20%, 1) 30%, hsla(153, 97%, 12%, 1) 100%);
+    --footer-gradiente-135: linear-gradient(135deg, hsla(153, 100%, 20%, 1) 38%, hsla(153, 97%, 12%, 1) 100%);
+    --footer-gradiente-0: linear-gradient(0deg, hsla(153, 100%, 20%, 1) 25%, hsla(153, 97%, 12%, 1) 100%);
+
 
     /* font-family: 'Cinzel', serif; */
     font-family: 'Poppins', sans-serif;
