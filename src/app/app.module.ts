@@ -16,6 +16,7 @@ import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { PortfolioCardComponent } from './home/portfolio/portfolio-card/portfolio-card.component';
 import { ExpertiseComponent } from './home/expertise/expertise.component';
 import { SkillTagComponent } from './home/expertise/skill-tag/skill-tag.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SkillTagComponent } from './home/expertise/skill-tag/skill-tag.componen
     PortfolioComponent,
     PortfolioCardComponent,
     ExpertiseComponent,
-    SkillTagComponent
+    SkillTagComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
